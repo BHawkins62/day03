@@ -16,7 +16,7 @@ open("input.txt") do file
         end
         sum_of_priorities += item_priority
     end
-    println(sum_of_priorities)
+    println("Sum of Priorities | Part One : $sum_of_priorities")
 end
 
 # Part Two
@@ -34,5 +34,5 @@ open("input.txt") do file
         end
         sum_of_priorities += item_priority
     end
-    println(sum_of_priorities)
+    println("Sum of Priorities | Part Two : $sum_of_priorities")
 end
